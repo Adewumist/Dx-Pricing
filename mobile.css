@@ -1,0 +1,17 @@
+@media screen and (max-width:885px) {
+
+    /* Pricing section starts here  */
+
+    /* Pricing section ends here  */
+
+    /* block section starts here  */
+    .block-pricing{
+        /* flex-wrap: wrap; */
+    }
+
+    .block-pricing-text-holder1{
+        /* min-width: 350px; */
+    }
+    /* block section ends here  */
+    
+}

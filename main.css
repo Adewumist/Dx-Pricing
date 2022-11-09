@@ -1,0 +1,179 @@
+/* page reset starts here */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'inter', sans-serif;
+    
+}
+
+/* page reset ends here */
+
+
+/* reusbales starts here */
+.btn{
+    padding:15px 20px;
+}
+
+.btn-white{
+    background: var(--main-color-dark);
+    color: var(--black-color);
+    border: tomato;
+
+}
+
+.btn-white:hover{
+    color: var(--white-color);
+    background: transparent;
+}
+
+.btn-grey{
+    background: var(--light-text-color);
+    color: var( --black-color);
+    border:blue;
+}
+
+.btn-grey:hover{
+    color: var(--light-text-color);
+    background:transparent;
+}
+
+.btn-light{
+    background: gray ;
+    color: var(--black-color);
+    border: purple
+}
+
+.btn-light:hover{
+    color: gray;
+    background: transparent;
+}
+/* reusbales ends here */
+
+
+/* Pricing section starts here */
+
+.pricing-section{
+    border:3px solid black;
+    height: 200px;
+    min-width: 100%;
+}
+
+.pricing-card-section{
+    padding:30px 0;
+    text-align: center;
+}
+
+.pricing-card-section p{
+    margin: 20px 0;
+}
+
+.pricing-input-holder{
+    border: 3px solid tomato;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-input-holder button{
+    border-radius: 10px;
+}
+/* Pricing section ends here */
+
+/* block section starts here */
+.block-section{
+    border:3px solid black;
+    /* height:500px; */
+    width:90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 40px;
+
+}
+
+.block-pricing{
+    border:3px solid tomato;
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* padding: 40px ; */
+
+}
+
+.block-pricing-text-holder1{
+    border:3px solid purple;
+    width: 28%;
+    min-height: 500px;
+    border-right: 3px solid grey;
+    padding: 10px;
+    /* min-width: 350px; */
+}
+
+.block-pricing-text-holder1 h4{
+    margin-bottom: 20px;
+
+}
+
+.margin-correction{
+    margin-bottom: 20px;
+
+}
+
+
+.price-tag{
+    /* font-weight: bolder; */
+    font-size: 20px;
+
+}
+
+.price-tag span{
+    /* font-weight: bolder; */
+    font-size: 50px;
+
+}
+
+.month-tag{
+    margin-bottom: 30px;
+}
+
+.block-pricing-text-holder1 button{
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+    color:var(--white-color);
+}
+
+.block-pricing-text-holder1 ul{
+    list-style: none;
+    margin: 0 0 20px 0;
+}
+
+.block-pricing-icon{
+    margin: 0 10px 10px 0;
+}
+
+/* .block-pricing-text-holder2{
+    border: 3px solid blue;
+    width:24%;
+    height:500px;
+    border-right: 3px solid grey;
+}
+
+
+
+.block-pricing-text-holder3{
+    border: 3px solid black;
+    width:24%;
+    height: 500px;
+    border-right: 3px solid grey;
+}
+
+.block-pricing-text-holder4{
+    border:3px solid yellow;
+    width:28%;
+    height: 500px;
+} */
+/* block section ends here */
