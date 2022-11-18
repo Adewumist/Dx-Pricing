@@ -1,16 +1,26 @@
-@media screen and (max-width:885px) {
+@media screen and (max-width:855px) {
 
     /* Pricing section starts here  */
 
     /* Pricing section ends here  */
 
     /* block section starts here  */
-    .block-pricing{
-        /* flex-wrap: wrap; */
+    .block-section{
+        /* width: 30%; */
+        /* display: block; */
+
     }
 
+    .block-pricing{
+        /* flex-wrap: wrap; */
+        /* display: block; */
+        /* width: 50%; */
+    }
+    
     .block-pricing-text-holder1{
-        /* min-width: 350px; */
+        /* margin: 40px 0; */
+        border-right: none;
+       
     }
     /* block section ends here  */
     
